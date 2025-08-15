@@ -1,7 +1,7 @@
 use axum::{
     Router,
     extract::Path,
-    response::{Html, IntoResponse, Redirect, Response}, 
+    response::{Html, IntoResponse, Redirect, Response},
     routing::get,
 };
 use comrak::Options;
@@ -15,7 +15,7 @@ const GITHUB_URL: &str = "https://github.com/mateolafalce/30-days-python";
 async fn main() {
     let app = Router::new()
         .route("/", get(handler))
-        .route("/markdown/{*path}", get(markdown_handler)) 
+        .route("/markdown/{*path}", get(markdown_handler))
         .nest_service(
             "/images",
             axum::routing::get_service(tower_http::services::ServeDir::new("./images")),
