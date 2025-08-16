@@ -14,7 +14,7 @@ Website [link](https://30-days-python.duckdns.org/)
 
 ```bash
 git clone https://github.com/mateolafalce/30-days-python.git
-cd hacker5news
+cd 30-days-python
 ```
 
 2. **Compile & Run**
