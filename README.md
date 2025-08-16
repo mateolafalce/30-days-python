@@ -6,7 +6,7 @@ Website [link](https://30-days-python.duckdns.org/)
 
 </div>
 
-A simple web application built with Rust and Axum that fetches and displays the top 5 articles from Hacker News. Perfect for those who get anxious seeing too many news  but don't have time to read everything.
+30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days!
 
 ## Installation
 
